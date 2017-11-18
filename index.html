@@ -2,15 +2,41 @@
     <head>
     	<meta charset="utf-8">
     	<title>Udacity Challenge Scolarship</title>
-    	<link rel="stylesheet" href="styles.css">
+    	<link rel="stylesheet" href="css/styles.css">
+    	<link rel="stylesheet" href="css/footer.css">
     	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     </head>
     <body>
-        The first project (HTML)
-        <a href="mockup-to-article/index.html">Article</a>
-        <br>
-        The second project (CSS)
-        <a href="animal-cards/card.html">Cards</a>
+        <header>
+            <h1 class="header__title">Udacity Front-End Track Projects</h1>
+        </header>
 
+        <div class="content">
+            <div>Hey, I'm Inna! Thank you for visiting my Udacity projects page! You can use it for navigation through all the tasks I've completed on the course so far. Feel free to contact me if you have any questions or suggestions via <a href="https://github.com/innayarantseva" target="_blank">my GitHub profile</a>.</div>
+
+            <ol class="projects">
+                <li class="projects__item">
+                    <p>
+                        <span class="projects__type">HTML</span>
+                        <span>Mockup to Article</span>
+                    </p>
+                    <a href="mockup-to-article/index.html">Article</a>
+                </li>
+                <li class="projects__item">
+                    <p>
+                        <span class="projects__type">CSS</span>
+                        <span>Animal Traiding Card</span>
+                    </p>
+                    <a href="animal-cards/card-cat.html">Cat card on special order of Lena</a>
+                    <a href="animal-cards/card-retriever.html">Golden Retriever Card</a>
+                </li>
+            </ol>
+        </div>
+
+        <footer>
+            <a href="https://github.com/innayarantseva/Udacity/tree/gh-pages/animal-cards" target="_blank">
+        		<img class="footer__img github" alt="Github Logo" src="img/GitHub_Logo.png">
+        	</a>
+        </footer>
     </body>
 </html>

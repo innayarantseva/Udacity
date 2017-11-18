@@ -1,0 +1,23 @@
+footer {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer__img {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.footer__img:hover {
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+}
+
+.github {
+    width: 100px;
+}
+
+.home {
+    width: 41px;
+}
